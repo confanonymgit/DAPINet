@@ -1,0 +1,1676 @@
+2026-01-07 11:20:43,588 INFO: Running benchmark on 20 datasets with 12 algorithms each
+2026-01-07 11:20:43,588 INFO: Settings: n_trials=50, timeout=60s, seed=42
+Processing Datasets:   0%|          | 0/20 [00:00<?, ?it/s]2026-01-07 11:20:43,612 INFO: 
+============================================================
+2026-01-07 11:20:43,612 INFO: Processing BreastTissue...
+2026-01-07 11:20:43,612 INFO: Shape: 106 rows x 9 cols, 6 clusters
+2026-01-07 11:20:43,612 INFO: ============================================================
+2026-01-07 11:20:43,613 INFO: [TUNE 1/12] k-means
+2026-01-07 11:20:46,999 INFO:   Best ARI: 0.2592
+2026-01-07 11:20:46,999 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:20:53,541 INFO:   Best ARI: 0.3047
+2026-01-07 11:20:53,541 INFO: [TUNE 3/12] spectral_clustering
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/base.py:1365: ConvergenceWarning: Number of distinct clusters (5) found smaller than n_clusters (6). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+2026-01-07 11:20:54,800 INFO:   Best ARI: 0.4152
+2026-01-07 11:20:54,800 INFO: [TUNE 4/12] ward
+2026-01-07 11:20:55,221 INFO:   Best ARI: 0.3139
+2026-01-07 11:20:55,222 INFO: [TUNE 5/12] agglomerative
+2026-01-07 11:20:55,661 INFO:   Best ARI: 0.3673
+2026-01-07 11:20:55,662 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:20:55,833 INFO:   Best ARI: 0.2684
+2026-01-07 11:20:55,834 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:20:56,037 INFO:   Best ARI: 0.1813
+2026-01-07 11:20:56,037 INFO: [TUNE 8/12] optics
+2026-01-07 11:20:58,700 INFO:   Best ARI: 0.2260
+2026-01-07 11:20:58,700 INFO: [TUNE 9/12] birch
+2026-01-07 11:20:59,244 INFO:   Best ARI: 0.3298
+2026-01-07 11:20:59,244 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:20:59,683 INFO:   Best ARI: 0.3523
+2026-01-07 11:20:59,684 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:21:04,505 INFO:   Best ARI: 0.2540
+2026-01-07 11:21:04,505 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:21:04,789 INFO:   Best ARI: 0.2232
+2026-01-07 11:21:04,794 INFO: Updated BreastTissue.npz with 12 predictions
+2026-01-07 11:21:04,794 INFO: Finished BreastTissue. Best: spectral_clustering (ARI=0.4152)
+Processing Datasets:   5%|▌         | 1/20 [00:21<06:43, 21.25s/it]2026-01-07 11:21:04,847 INFO: 
+============================================================
+2026-01-07 11:21:04,847 INFO: Processing BreastWisconsin...
+2026-01-07 11:21:04,847 INFO: Shape: 569 rows x 30 cols, 2 clusters
+2026-01-07 11:21:04,847 INFO: ============================================================
+2026-01-07 11:21:04,848 INFO: [TUNE 1/12] k-means
+2026-01-07 11:21:07,578 INFO:   Best ARI: 0.6707
+2026-01-07 11:21:07,578 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:21:19,864 INFO:   Best ARI: 0.7426
+2026-01-07 11:21:19,864 INFO: [TUNE 3/12] spectral_clustering
+2026-01-07 11:21:21,420 INFO:   Best ARI: 0.7859
+2026-01-07 11:21:21,421 INFO: [TUNE 4/12] ward
+2026-01-07 11:21:23,258 INFO:   Best ARI: 0.6951
+2026-01-07 11:21:23,258 INFO: [TUNE 5/12] agglomerative
+2026-01-07 11:21:25,370 INFO:   Best ARI: 0.0073
+2026-01-07 11:21:25,370 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:21:25,621 INFO:   Best ARI: 0.2951
+2026-01-07 11:21:25,621 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:21:26,646 INFO:   Best ARI: 0.1560
+2026-01-07 11:21:26,646 INFO: [TUNE 8/12] optics
+2026-01-07 11:21:38,306 INFO:   Best ARI: 0.1551
+2026-01-07 11:21:38,306 INFO: [TUNE 9/12] birch
+2026-01-07 11:21:39,821 INFO:   Best ARI: 0.6954
+2026-01-07 11:21:39,821 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:21:40,263 INFO:   Best ARI: 0.7740
+2026-01-07 11:21:40,263 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:22:13,422 INFO:   Best ARI: 0.5139
+2026-01-07 11:22:13,422 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:22:19,356 INFO:   Best ARI: 0.5191
+2026-01-07 11:22:19,374 INFO: Updated BreastWisconsin.npz with 12 predictions
+2026-01-07 11:22:19,374 INFO: Finished BreastWisconsin. Best: spectral_clustering (ARI=0.7859)
+Processing Datasets:  10%|█         | 2/20 [01:35<15:46, 52.60s/it]2026-01-07 11:22:19,414 INFO: 
+============================================================
+2026-01-07 11:22:19,414 INFO: Processing Ecoli...
+2026-01-07 11:22:19,414 INFO: Shape: 336 rows x 7 cols, 8 clusters
+2026-01-07 11:22:19,414 INFO: ============================================================
+2026-01-07 11:22:19,415 INFO: [TUNE 1/12] k-means
+2026-01-07 11:22:24,894 INFO:   Best ARI: 0.4998
+2026-01-07 11:22:24,894 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:22:40,528 INFO:   Best ARI: 0.4934
+2026-01-07 11:22:40,528 INFO: [TUNE 3/12] spectral_clustering
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/base.py:1365: ConvergenceWarning: Number of distinct clusters (2) found smaller than n_clusters (8). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/base.py:1365: ConvergenceWarning: Number of distinct clusters (2) found smaller than n_clusters (8). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/base.py:1365: ConvergenceWarning: Number of distinct clusters (3) found smaller than n_clusters (8). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/base.py:1365: ConvergenceWarning: Number of distinct clusters (7) found smaller than n_clusters (8). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/base.py:1365: ConvergenceWarning: Number of distinct clusters (2) found smaller than n_clusters (8). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/base.py:1365: ConvergenceWarning: Number of distinct clusters (6) found smaller than n_clusters (8). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/base.py:1365: ConvergenceWarning: Number of distinct clusters (2) found smaller than n_clusters (8). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+2026-01-07 11:22:41,928 INFO:   Best ARI: 0.7202
+2026-01-07 11:22:41,928 INFO: [TUNE 4/12] ward
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+2026-01-07 11:22:43,237 INFO:   Best ARI: 0.5182
+2026-01-07 11:22:43,238 INFO: [TUNE 5/12] agglomerative
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+2026-01-07 11:22:44,447 INFO:   Best ARI: 0.3955
+2026-01-07 11:22:44,447 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:22:44,712 INFO:   Best ARI: 0.4966
+2026-01-07 11:22:44,712 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:22:45,029 INFO:   Best ARI: 0.4043
+2026-01-07 11:22:45,029 INFO: [TUNE 8/12] optics
+2026-01-07 11:22:52,674 INFO:   Best ARI: 0.5191
+2026-01-07 11:22:52,674 INFO: [TUNE 9/12] birch
+2026-01-07 11:22:53,179 INFO:   Best ARI: 0.7954
+2026-01-07 11:22:53,179 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:22:53,810 INFO:   Best ARI: 0.6505
+2026-01-07 11:22:53,810 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:23:14,642 INFO:   Best ARI: 0.7419
+2026-01-07 11:23:14,642 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:23:16,060 INFO:   Best ARI: 0.2453
+2026-01-07 11:23:16,067 INFO: Updated Ecoli.npz with 12 predictions
+2026-01-07 11:23:16,067 INFO: Finished Ecoli. Best: birch (ARI=0.7954)
+Processing Datasets:  15%|█▌        | 3/20 [02:32<15:25, 54.47s/it]2026-01-07 11:23:16,093 INFO: 
+============================================================
+2026-01-07 11:23:16,093 INFO: Processing Glass...
+2026-01-07 11:23:16,093 INFO: Shape: 214 rows x 9 cols, 6 clusters
+2026-01-07 11:23:16,093 INFO: ============================================================
+2026-01-07 11:23:16,094 INFO: [TUNE 1/12] k-means
+2026-01-07 11:23:20,749 INFO:   Best ARI: 0.1700
+2026-01-07 11:23:20,749 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:23:30,668 INFO:   Best ARI: 0.1841
+2026-01-07 11:23:30,668 INFO: [TUNE 3/12] spectral_clustering
+2026-01-07 11:23:31,770 INFO:   Best ARI: 0.2254
+2026-01-07 11:23:31,770 INFO: [TUNE 4/12] ward
+2026-01-07 11:23:32,597 INFO:   Best ARI: 0.1351
+2026-01-07 11:23:32,597 INFO: [TUNE 5/12] agglomerative
+2026-01-07 11:23:33,331 INFO:   Best ARI: 0.2877
+2026-01-07 11:23:33,331 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:23:33,539 INFO:   Best ARI: 0.2507
+2026-01-07 11:23:33,539 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:23:33,790 INFO:   Best ARI: 0.2570
+2026-01-07 11:23:33,790 INFO: [TUNE 8/12] optics
+2026-01-07 11:23:38,711 INFO:   Best ARI: 0.2207
+2026-01-07 11:23:38,711 INFO: [TUNE 9/12] birch
+2026-01-07 11:23:39,077 INFO:   Best ARI: 0.2919
+2026-01-07 11:23:39,077 INFO: [TUNE 10/12] gaussian
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/mixture/_base.py:275: ConvergenceWarning: Best performing initialization did not converge. Try different init parameters, or increase max_iter, tol, or check for degenerate data.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/mixture/_base.py:275: ConvergenceWarning: Best performing initialization did not converge. Try different init parameters, or increase max_iter, tol, or check for degenerate data.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/mixture/_base.py:275: ConvergenceWarning: Best performing initialization did not converge. Try different init parameters, or increase max_iter, tol, or check for degenerate data.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/mixture/_base.py:275: ConvergenceWarning: Best performing initialization did not converge. Try different init parameters, or increase max_iter, tol, or check for degenerate data.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/mixture/_base.py:275: ConvergenceWarning: Best performing initialization did not converge. Try different init parameters, or increase max_iter, tol, or check for degenerate data.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/mixture/_base.py:275: ConvergenceWarning: Best performing initialization did not converge. Try different init parameters, or increase max_iter, tol, or check for degenerate data.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/mixture/_base.py:275: ConvergenceWarning: Best performing initialization did not converge. Try different init parameters, or increase max_iter, tol, or check for degenerate data.
+  warnings.warn(
+2026-01-07 11:23:39,907 INFO:   Best ARI: 0.2257
+2026-01-07 11:23:39,907 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:23:49,717 INFO:   Best ARI: 0.2899
+2026-01-07 11:23:49,717 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:23:50,564 INFO:   Best ARI: 0.1598
+2026-01-07 11:23:50,568 INFO: Updated Glass.npz with 12 predictions
+2026-01-07 11:23:50,568 INFO: Finished Glass. Best: birch (ARI=0.2919)
+Processing Datasets:  20%|██        | 4/20 [03:06<12:25, 46.58s/it]2026-01-07 11:23:50,577 INFO: 
+============================================================
+2026-01-07 11:23:50,577 INFO: Processing Haberman...
+2026-01-07 11:23:50,577 INFO: Shape: 306 rows x 3 cols, 2 clusters
+2026-01-07 11:23:50,577 INFO: ============================================================
+2026-01-07 11:23:50,578 INFO: [TUNE 1/12] k-means
+2026-01-07 11:23:52,812 INFO:   Best ARI: -0.0011
+2026-01-07 11:23:52,812 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:23:55,254 INFO:   Best ARI: -0.0001
+2026-01-07 11:23:55,254 INFO: [TUNE 3/12] spectral_clustering
+2026-01-07 11:23:56,054 INFO:   Best ARI: 0.0793
+2026-01-07 11:23:56,054 INFO: [TUNE 4/12] ward
+2026-01-07 11:23:56,791 INFO:   Best ARI: 0.0143
+2026-01-07 11:23:56,791 INFO: [TUNE 5/12] agglomerative
+2026-01-07 11:23:57,758 INFO:   Best ARI: 0.1553
+2026-01-07 11:23:57,758 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:23:57,971 INFO:   Best ARI: 0.1577
+2026-01-07 11:23:57,971 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:23:58,246 INFO:   Best ARI: 0.0000
+2026-01-07 11:23:58,247 INFO: [TUNE 8/12] optics
+2026-01-07 11:24:05,155 INFO:   Best ARI: 0.1428
+2026-01-07 11:24:05,155 INFO: [TUNE 9/12] birch
+2026-01-07 11:24:05,560 INFO:   Best ARI: 0.1556
+2026-01-07 11:24:05,560 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:24:06,040 INFO:   Best ARI: 0.1040
+2026-01-07 11:24:06,040 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:24:29,876 INFO:   Best ARI: 0.1834
+2026-01-07 11:24:29,877 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:24:30,908 INFO:   Best ARI: 0.0300
+2026-01-07 11:24:30,913 INFO: Updated Haberman.npz with 12 predictions
+2026-01-07 11:24:30,913 INFO: Finished Haberman. Best: mean_shift (ARI=0.1834)
+Processing Datasets:  25%|██▌       | 5/20 [03:47<11:05, 44.33s/it]2026-01-07 11:24:30,922 INFO: 
+============================================================
+2026-01-07 11:24:30,922 INFO: Processing Ionosphere...
+2026-01-07 11:24:30,922 INFO: Shape: 351 rows x 34 cols, 2 clusters
+2026-01-07 11:24:30,922 INFO: ============================================================
+2026-01-07 11:24:30,923 INFO: [TUNE 1/12] k-means
+2026-01-07 11:24:33,599 INFO:   Best ARI: 0.1679
+2026-01-07 11:24:33,599 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:24:42,895 INFO:   Best ARI: 0.0933
+2026-01-07 11:24:42,895 INFO: [TUNE 3/12] spectral_clustering
+2026-01-07 11:24:47,548 INFO:   Best ARI: 0.1013
+2026-01-07 11:24:47,548 INFO: [TUNE 4/12] ward
+2026-01-07 11:24:49,496 INFO:   Best ARI: 0.1874
+2026-01-07 11:24:49,497 INFO: [TUNE 5/12] agglomerative
+2026-01-07 11:24:50,726 INFO:   Best ARI: 0.3332
+2026-01-07 11:24:50,726 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:24:50,929 INFO:   Best ARI: 0.7319
+2026-01-07 11:24:50,929 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:24:51,515 INFO:   Best ARI: 0.4191
+2026-01-07 11:24:51,516 INFO: [TUNE 8/12] optics
+2026-01-07 11:24:58,355 INFO:   Best ARI: 0.7216
+2026-01-07 11:24:58,355 INFO: [TUNE 9/12] birch
+2026-01-07 11:24:59,177 INFO:   Best ARI: 0.1975
+2026-01-07 11:24:59,177 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:25:00,019 INFO:   Best ARI: 0.3942
+2026-01-07 11:25:00,019 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:25:16,025 INFO:   Best ARI: 0.3634
+2026-01-07 11:25:16,025 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:25:18,389 INFO:   Best ARI: 0.1283
+2026-01-07 11:25:18,399 INFO: Updated Ionosphere.npz with 12 predictions
+2026-01-07 11:25:18,399 INFO: Finished Ionosphere. Best: dbscan (ARI=0.7319)
+Processing Datasets:  30%|███       | 6/20 [04:34<10:35, 45.41s/it]2026-01-07 11:25:18,407 INFO: 
+============================================================
+2026-01-07 11:25:18,407 INFO: Processing Iris...
+2026-01-07 11:25:18,407 INFO: Shape: 150 rows x 4 cols, 3 clusters
+2026-01-07 11:25:18,407 INFO: ============================================================
+2026-01-07 11:25:18,408 INFO: [TUNE 1/12] k-means
+2026-01-07 11:25:20,880 INFO:   Best ARI: 0.6201
+2026-01-07 11:25:20,880 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:25:24,663 INFO:   Best ARI: 0.6656
+2026-01-07 11:25:24,664 INFO: [TUNE 3/12] spectral_clustering
+2026-01-07 11:25:25,487 INFO:   Best ARI: 0.6525
+2026-01-07 11:25:25,487 INFO: [TUNE 4/12] ward
+2026-01-07 11:25:26,009 INFO:   Best ARI: 0.6153
+2026-01-07 11:25:26,009 INFO: [TUNE 5/12] agglomerative
+2026-01-07 11:25:26,363 INFO:   Best ARI: 0.5638
+2026-01-07 11:25:26,363 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:25:26,539 INFO:   Best ARI: 0.5681
+2026-01-07 11:25:26,539 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:25:26,752 INFO:   Best ARI: 0.5638
+2026-01-07 11:25:26,753 INFO: [TUNE 8/12] optics
+2026-01-07 11:25:30,196 INFO:   Best ARI: 0.5681
+2026-01-07 11:25:30,196 INFO: [TUNE 9/12] birch
+2026-01-07 11:25:30,419 INFO:   Best ARI: 0.7196
+2026-01-07 11:25:30,419 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:25:30,794 INFO:   Best ARI: 0.9039
+2026-01-07 11:25:30,795 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:25:38,898 INFO:   Best ARI: 0.5681
+2026-01-07 11:25:38,898 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:25:39,877 INFO:   Best ARI: 0.4772
+2026-01-07 11:25:39,881 INFO: Updated Iris.npz with 12 predictions
+2026-01-07 11:25:39,881 INFO: Finished Iris. Best: gaussian (ARI=0.9039)
+Processing Datasets:  35%|███▌      | 7/20 [04:56<08:08, 37.58s/it]2026-01-07 11:25:39,891 INFO: 
+============================================================
+2026-01-07 11:25:39,891 INFO: Processing Movement_libras...
+2026-01-07 11:25:39,891 INFO: Shape: 359 rows x 90 cols, 15 clusters
+2026-01-07 11:25:39,891 INFO: ============================================================
+2026-01-07 11:25:39,891 INFO: [TUNE 1/12] k-means
+2026-01-07 11:25:51,246 INFO:   Best ARI: 0.3108
+2026-01-07 11:25:51,247 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:26:46,507 INFO:   Best ARI: 0.3060
+2026-01-07 11:26:46,507 INFO: [TUNE 3/12] spectral_clustering
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/base.py:1365: ConvergenceWarning: Number of distinct clusters (14) found smaller than n_clusters (15). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 2000 with accuracies 
+[9.67138235e-12 1.13816407e-06 1.00872464e-06 1.72942247e-06
+ 2.02154431e-06 1.82577978e-06 1.81120856e-06 3.64472718e-06
+ 1.44084735e-06 5.95143653e-06 3.71936374e-06 3.62870469e-06
+ 1.92303402e-06 1.89416400e-05 5.91078079e-06 2.00197386e-05]
+not reaching the requested tolerance 5.349516868591309e-06.
+Use iteration 1740 instead with accuracy 
+2.796616857154948e-06.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[6.13952128e-13 1.16020109e-06 1.06403502e-06 1.43185714e-06
+ 1.37445451e-06 2.50396228e-06 2.20640063e-06 3.15099600e-06
+ 1.57776412e-06 2.10842853e-06 1.98646024e-06 1.68991734e-06
+ 2.22624350e-06 1.00537569e-05 5.90301923e-06 6.30839858e-06]
+not reaching the requested tolerance 5.349516868591309e-06.
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 2000 with accuracies 
+[8.08010115e-11 1.02078940e-06 9.74444152e-07 3.05235497e-06
+ 2.12892570e-06 2.15064931e-06 4.42978030e-06 3.21885084e-06
+ 2.97028387e-06 4.34874026e-06 1.94833133e-06 5.16148322e-06
+ 8.73655617e-06 1.34457505e-05 1.03441111e-05 5.82903844e-06]
+not reaching the requested tolerance 5.349516868591309e-06.
+Use iteration 1780 instead with accuracy 
+3.2486685272416134e-06.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[7.91516466e-11 5.70776064e-07 6.63893535e-07 1.73524578e-06
+ 1.73804131e-06 1.27884625e-06 2.64423462e-06 3.05254473e-06
+ 3.70744309e-06 4.14981912e-06 1.37057077e-06 2.56120929e-06
+ 5.72839992e-06 5.46952437e-06 9.60768068e-06 7.67244281e-06]
+not reaching the requested tolerance 5.349516868591309e-06.
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 2000 with accuracies 
+[7.62148807e-13 3.83951703e-07 1.39817021e-06 9.93324420e-07
+ 1.47248535e-06 1.99553903e-06 1.38077433e-06 2.01660693e-06
+ 3.06726596e-06 4.48661045e-06 2.03616935e-06 8.90963846e-06
+ 5.91472687e-06 2.17100701e-05 2.14420963e-05 1.05458512e-05]
+not reaching the requested tolerance 5.349516868591309e-06.
+Use iteration 1737 instead with accuracy 
+3.811833448377319e-06.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[6.23309727e-13 4.00076298e-07 6.46778841e-07 1.08971430e-06
+ 1.11380030e-06 1.64584439e-06 1.51501991e-06 1.89011374e-06
+ 2.96386786e-06 3.78171507e-06 2.07327303e-06 4.18112770e-06
+ 3.44492670e-06 1.43118321e-05 1.24458560e-05 9.48542093e-06]
+not reaching the requested tolerance 5.349516868591309e-06.
+  _, diffusion_map = lobpcg(
+2026-01-07 11:27:08,715 INFO:   Best ARI: 0.3985
+2026-01-07 11:27:08,716 INFO: [TUNE 4/12] ward
+2026-01-07 11:27:10,037 INFO:   Best ARI: 0.3195
+2026-01-07 11:27:10,037 INFO: [TUNE 5/12] agglomerative
+2026-01-07 11:27:11,733 INFO:   Best ARI: 0.1073
+2026-01-07 11:27:11,733 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:27:11,938 INFO:   Best ARI: 0.1197
+2026-01-07 11:27:11,938 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:27:13,132 INFO:   Best ARI: 0.0795
+2026-01-07 11:27:13,132 INFO: [TUNE 8/12] optics
+2026-01-07 11:27:20,701 INFO:   Best ARI: 0.0710
+2026-01-07 11:27:20,701 INFO: [TUNE 9/12] birch
+2026-01-07 11:27:21,587 INFO:   Best ARI: 0.3233
+2026-01-07 11:27:21,587 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:27:22,371 INFO:   Best ARI: 0.2804
+2026-01-07 11:27:22,371 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:27:37,689 INFO:   Best ARI: 0.2948
+2026-01-07 11:27:37,690 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:27:41,791 INFO:   Best ARI: 0.2898
+2026-01-07 11:27:41,811 INFO: Updated Movement_libras.npz with 12 predictions
+2026-01-07 11:27:41,811 INFO: Finished Movement_libras. Best: spectral_clustering (ARI=0.3985)
+Processing Datasets:  40%|████      | 8/20 [06:58<12:53, 64.44s/it]2026-01-07 11:27:41,850 INFO: 
+============================================================
+2026-01-07 11:27:41,850 INFO: Processing Musk...
+2026-01-07 11:27:41,850 INFO: Shape: 476 rows x 166 cols, 2 clusters
+2026-01-07 11:27:41,850 INFO: ============================================================
+2026-01-07 11:27:41,851 INFO: [TUNE 1/12] k-means
+2026-01-07 11:27:46,390 INFO:   Best ARI: 0.0042
+2026-01-07 11:27:46,390 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:28:10,941 INFO:   Best ARI: 0.0038
+2026-01-07 11:28:10,942 INFO: [TUNE 3/12] spectral_clustering
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[1.74120259e-15 3.59573899e-06 7.33098755e-06]
+not reaching the requested tolerance 7.092952728271484e-06.
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 912 with accuracies 
+[3.99980673e-15 9.37423438e-06 6.90169469e-06]
+not reaching the requested tolerance 7.092952728271484e-06.
+Use iteration 830 instead with accuracy 
+5.0911110762610354e-06.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[3.29064010e-15 6.13838939e-06 9.13494396e-06]
+not reaching the requested tolerance 7.092952728271484e-06.
+  _, diffusion_map = lobpcg(
+2026-01-07 11:29:20,488 INFO:   Best ARI: 0.0013
+2026-01-07 11:29:20,488 INFO: [TUNE 4/12] ward
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+2026-01-07 11:29:23,014 INFO:   Best ARI: -0.0005
+2026-01-07 11:29:23,014 INFO: [TUNE 5/12] agglomerative
+2026-01-07 11:29:26,067 INFO:   Best ARI: 0.0724
+2026-01-07 11:29:26,067 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:29:26,339 INFO:   Best ARI: 0.0000
+2026-01-07 11:29:26,339 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:29:29,751 INFO:   Best ARI: 0.0986
+2026-01-07 11:29:29,751 INFO: [TUNE 8/12] optics
+2026-01-07 11:29:41,203 INFO:   Best ARI: 0.0000
+2026-01-07 11:29:41,203 INFO: [TUNE 9/12] birch
+2026-01-07 11:29:42,796 INFO:   Best ARI: -0.0005
+2026-01-07 11:29:42,796 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:29:43,344 INFO:   Best ARI: 0.0014
+2026-01-07 11:29:43,344 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:30:04,867 INFO:   Best ARI: 0.0328
+2026-01-07 11:30:04,867 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:30:10,454 INFO:   Best ARI: 0.0273
+2026-01-07 11:30:10,541 INFO: Updated Musk.npz with 12 predictions
+2026-01-07 11:30:10,541 INFO: Finished Musk. Best: hdbscan (ARI=0.0986)
+Processing Datasets:  45%|████▌     | 9/20 [09:26<16:38, 90.79s/it]2026-01-07 11:30:10,583 INFO: 
+============================================================
+2026-01-07 11:30:10,583 INFO: Processing Parkinsons...
+2026-01-07 11:30:10,583 INFO: Shape: 195 rows x 22 cols, 2 clusters
+2026-01-07 11:30:10,584 INFO: ============================================================
+2026-01-07 11:30:10,585 INFO: [TUNE 1/12] k-means
+2026-01-07 11:30:13,224 INFO:   Best ARI: -0.0978
+2026-01-07 11:30:13,224 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:30:18,221 INFO:   Best ARI: 0.1267
+2026-01-07 11:30:18,221 INFO: [TUNE 3/12] spectral_clustering
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 2000 with accuracies 
+[4.91663614e-15 2.62632229e-06 1.76169683e-05]
+not reaching the requested tolerance 2.905726432800293e-06.
+Use iteration 1978 instead with accuracy 
+4.505754219879675e-06.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[3.49877551e-15 1.81756126e-06 1.16997071e-05]
+not reaching the requested tolerance 2.905726432800293e-06.
+  _, diffusion_map = lobpcg(
+2026-01-07 11:30:21,997 INFO:   Best ARI: 0.4373
+2026-01-07 11:30:21,997 INFO: [TUNE 4/12] ward
+2026-01-07 11:30:22,729 INFO:   Best ARI: -0.0599
+2026-01-07 11:30:22,729 INFO: [TUNE 5/12] agglomerative
+2026-01-07 11:30:23,474 INFO:   Best ARI: 0.2373
+2026-01-07 11:30:23,474 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:30:23,638 INFO:   Best ARI: 0.0396
+2026-01-07 11:30:23,638 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:30:23,916 INFO:   Best ARI: 0.1472
+2026-01-07 11:30:23,916 INFO: [TUNE 8/12] optics
+2026-01-07 11:30:27,661 INFO:   Best ARI: 0.2482
+2026-01-07 11:30:27,661 INFO: [TUNE 9/12] birch
+2026-01-07 11:30:28,088 INFO:   Best ARI: 0.1430
+2026-01-07 11:30:28,088 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:30:28,463 INFO:   Best ARI: 0.1218
+2026-01-07 11:30:28,463 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:30:37,424 INFO:   Best ARI: 0.0693
+2026-01-07 11:30:37,424 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:30:38,048 INFO:   Best ARI: 0.0258
+2026-01-07 11:30:38,053 INFO: Updated Parkinsons.npz with 12 predictions
+2026-01-07 11:30:38,053 INFO: Finished Parkinsons. Best: spectral_clustering (ARI=0.4373)
+Processing Datasets:  50%|█████     | 10/20 [09:54<11:52, 71.25s/it]2026-01-07 11:30:38,095 INFO: 
+============================================================
+2026-01-07 11:30:38,095 INFO: Processing Segmentation...
+2026-01-07 11:30:38,095 INFO: Shape: 2310 rows x 19 cols, 7 clusters
+2026-01-07 11:30:38,095 INFO: ============================================================
+2026-01-07 11:30:38,096 INFO: [TUNE 1/12] k-means
+2026-01-07 11:30:50,038 INFO:   Best ARI: 0.4615
+2026-01-07 11:30:50,040 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:31:52,735 INFO:   Best ARI: 0.5237
+2026-01-07 11:31:52,735 INFO: [TUNE 3/12] spectral_clustering
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/base.py:1365: ConvergenceWarning: Number of distinct clusters (2) found smaller than n_clusters (7). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+2026-01-07 11:35:39,980 INFO:   Best ARI: 0.3589
+2026-01-07 11:35:39,980 INFO: [TUNE 4/12] ward
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+2026-01-07 11:35:50,427 INFO:   Best ARI: 0.4366
+2026-01-07 11:35:50,427 INFO: [TUNE 5/12] agglomerative
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+2026-01-07 11:35:56,663 INFO:   Best ARI: 0.2915
+2026-01-07 11:35:56,664 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:35:58,004 INFO:   Best ARI: 0.3013
+2026-01-07 11:35:58,004 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:36:05,488 INFO:   Best ARI: 0.4523
+2026-01-07 11:36:05,488 INFO: [TUNE 8/12] optics
+2026-01-07 11:37:03,458 INFO:   Best ARI: 0.2525
+2026-01-07 11:37:03,458 INFO: [TUNE 9/12] birch
+2026-01-07 11:37:09,027 INFO:   Best ARI: 0.4751
+2026-01-07 11:37:09,027 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:37:10,757 INFO:   Best ARI: 0.4940
+2026-01-07 11:37:10,757 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:38:19,671 INFO:   Best ARI: 0.4365
+2026-01-07 11:38:19,672 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:39:30,728 INFO:   Best ARI: 0.1885
+2026-01-07 11:39:30,809 INFO: Updated Segmentation.npz with 12 predictions
+2026-01-07 11:39:30,809 INFO: Finished Segmentation. Best: k-medians (ARI=0.5237)
+Processing Datasets:  55%|█████▌    | 11/20 [18:47<31:52, 212.51s/it]2026-01-07 11:39:30,925 INFO: 
+============================================================
+2026-01-07 11:39:30,925 INFO: Processing SonarAll...
+2026-01-07 11:39:30,925 INFO: Shape: 208 rows x 60 cols, 2 clusters
+2026-01-07 11:39:30,925 INFO: ============================================================
+2026-01-07 11:39:30,928 INFO: [TUNE 1/12] k-means
+2026-01-07 11:39:33,346 INFO:   Best ARI: -0.0014
+2026-01-07 11:39:33,347 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:39:41,901 INFO:   Best ARI: 0.0011
+2026-01-07 11:39:41,901 INFO: [TUNE 3/12] spectral_clustering
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 1027 with accuracies 
+[3.88594867e-15 2.60351162e-06 3.13950786e-06]
+not reaching the requested tolerance 3.0994415283203125e-06.
+Use iteration 1027 instead with accuracy 
+1.914339828782779e-06.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[1.35059341e-15 2.60351087e-06 3.13950847e-06]
+not reaching the requested tolerance 3.0994415283203125e-06.
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 2000 with accuracies 
+[5.83373568e-15 6.08527243e-07 1.09694459e-05]
+not reaching the requested tolerance 3.0994415283203125e-06.
+Use iteration 1784 instead with accuracy 
+1.316285066533664e-06.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[2.07397338e-15 6.28817812e-07 3.32003864e-06]
+not reaching the requested tolerance 3.0994415283203125e-06.
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 2000 with accuracies 
+[6.84325929e-15 8.99902883e-06 2.28143873e-05]
+not reaching the requested tolerance 3.0994415283203125e-06.
+Use iteration 1967 instead with accuracy 
+5.586392254066478e-06.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[1.72366458e-15 4.52092543e-06 1.22382575e-05]
+not reaching the requested tolerance 3.0994415283203125e-06.
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 2000 with accuracies 
+[4.21048405e-15 7.39226801e-06 1.11804232e-05]
+not reaching the requested tolerance 3.0994415283203125e-06.
+Use iteration 1813 instead with accuracy 
+4.250302640990071e-06.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[1.14016083e-15 3.32452564e-06 9.42729261e-06]
+not reaching the requested tolerance 3.0994415283203125e-06.
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 479 with accuracies 
+[4.49930194e-15 5.16618265e-06 2.90461834e-06]
+not reaching the requested tolerance 3.0994415283203125e-06.
+Use iteration 404 instead with accuracy 
+2.1737585433910348e-06.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[1.26083709e-15 1.61364204e-06 4.90763373e-06]
+not reaching the requested tolerance 3.0994415283203125e-06.
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 2000 with accuracies 
+[4.01302727e-15 6.94603519e-07 9.24076341e-06]
+not reaching the requested tolerance 3.0994415283203125e-06.
+Use iteration 1549 instead with accuracy 
+1.509623692118545e-06.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[1.29221263e-15 8.56405489e-07 3.67246679e-06]
+not reaching the requested tolerance 3.0994415283203125e-06.
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 2000 with accuracies 
+[3.07539676e-15 1.08503362e-06 8.28565341e-06]
+not reaching the requested tolerance 3.0994415283203125e-06.
+Use iteration 927 instead with accuracy 
+1.888422154920579e-06.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[1.70563151e-15 1.38024981e-06 4.28501665e-06]
+not reaching the requested tolerance 3.0994415283203125e-06.
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 2000 with accuracies 
+[3.26932678e-15 6.14575897e-07 4.51254655e-06]
+not reaching the requested tolerance 3.0994415283203125e-06.
+Use iteration 1882 instead with accuracy 
+1.3174187154215424e-06.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[1.62929231e-15 6.95686822e-07 3.25656297e-06]
+not reaching the requested tolerance 3.0994415283203125e-06.
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+2026-01-07 11:40:06,661 INFO:   Best ARI: 0.0324
+2026-01-07 11:40:06,661 INFO: [TUNE 4/12] ward
+2026-01-07 11:40:07,525 INFO:   Best ARI: 0.0045
+2026-01-07 11:40:07,525 INFO: [TUNE 5/12] agglomerative
+2026-01-07 11:40:08,286 INFO:   Best ARI: 0.0287
+2026-01-07 11:40:08,287 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:40:08,452 INFO:   Best ARI: 0.0125
+2026-01-07 11:40:08,453 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:40:08,867 INFO:   Best ARI: 0.0035
+2026-01-07 11:40:08,867 INFO: [TUNE 8/12] optics
+2026-01-07 11:40:12,970 INFO:   Best ARI: 0.0122
+2026-01-07 11:40:12,970 INFO: [TUNE 9/12] birch
+2026-01-07 11:40:13,483 INFO:   Best ARI: -0.0014
+2026-01-07 11:40:13,484 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:40:13,896 INFO:   Best ARI: 0.0045
+2026-01-07 11:40:13,896 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:40:19,938 INFO:   Best ARI: 0.0181
+2026-01-07 11:40:19,938 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:40:20,564 INFO:   Best ARI: 0.0444
+2026-01-07 11:40:20,575 INFO: Updated SonarAll.npz with 12 predictions
+2026-01-07 11:40:20,575 INFO: Finished SonarAll. Best: affinity_propagation (ARI=0.0444)
+Processing Datasets:  60%|██████    | 12/20 [19:37<21:43, 162.99s/it]2026-01-07 11:40:20,594 INFO: 
+============================================================
+2026-01-07 11:40:20,594 INFO: Processing Spectf...
+2026-01-07 11:40:20,594 INFO: Shape: 267 rows x 44 cols, 2 clusters
+2026-01-07 11:40:20,595 INFO: ============================================================
+2026-01-07 11:40:20,595 INFO: [TUNE 1/12] k-means
+2026-01-07 11:40:22,984 INFO:   Best ARI: -0.1026
+2026-01-07 11:40:22,984 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:40:35,562 INFO:   Best ARI: -0.1053
+2026-01-07 11:40:35,562 INFO: [TUNE 3/12] spectral_clustering
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 190 with accuracies 
+[9.72930872e-15 5.35862521e-06 3.87862102e-06]
+not reaching the requested tolerance 3.978610038757324e-06.
+Use iteration 190 instead with accuracy 
+3.0790820779417367e-06.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[9.34768180e-16 5.35862531e-06 3.87862087e-06]
+not reaching the requested tolerance 3.978610038757324e-06.
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 252 with accuracies 
+[2.58817553e-15 4.31620865e-06 3.77819556e-06]
+not reaching the requested tolerance 3.978610038757324e-06.
+Use iteration 252 instead with accuracy 
+2.6981347391268398e-06.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[1.37078123e-15 4.31620876e-06 3.77819544e-06]
+not reaching the requested tolerance 3.978610038757324e-06.
+  _, diffusion_map = lobpcg(
+2026-01-07 11:41:11,561 INFO:   Best ARI: -0.0055
+2026-01-07 11:41:11,561 INFO: [TUNE 4/12] ward
+2026-01-07 11:41:12,563 INFO:   Best ARI: -0.1018
+2026-01-07 11:41:12,563 INFO: [TUNE 5/12] agglomerative
+2026-01-07 11:41:13,739 INFO:   Best ARI: 0.0982
+2026-01-07 11:41:13,739 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:41:13,920 INFO:   Best ARI: 0.2555
+2026-01-07 11:41:13,920 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:41:14,396 INFO:   Best ARI: 0.0453
+2026-01-07 11:41:14,396 INFO: [TUNE 8/12] optics
+2026-01-07 11:41:19,638 INFO:   Best ARI: 0.0126
+2026-01-07 11:41:19,638 INFO: [TUNE 9/12] birch
+2026-01-07 11:41:20,351 INFO:   Best ARI: -0.1065
+2026-01-07 11:41:20,351 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:41:20,587 INFO:   Best ARI: -0.0988
+2026-01-07 11:41:20,588 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:41:26,296 INFO:   Best ARI: 0.0000
+2026-01-07 11:41:26,296 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:41:28,771 INFO:   Best ARI: -0.0088
+2026-01-07 11:41:28,782 INFO: Updated Spectf.npz with 12 predictions
+2026-01-07 11:41:28,782 INFO: Finished Spectf. Best: dbscan (ARI=0.2555)
+Processing Datasets:  65%|██████▌   | 13/20 [20:45<15:39, 134.28s/it]2026-01-07 11:41:28,814 INFO: 
+============================================================
+2026-01-07 11:41:28,814 INFO: Processing Transfusion...
+2026-01-07 11:41:28,814 INFO: Shape: 748 rows x 4 cols, 2 clusters
+2026-01-07 11:41:28,814 INFO: ============================================================
+2026-01-07 11:41:28,814 INFO: [TUNE 1/12] k-means
+2026-01-07 11:41:31,493 INFO:   Best ARI: 0.0527
+2026-01-07 11:41:31,493 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:41:35,714 INFO:   Best ARI: 0.0520
+2026-01-07 11:41:35,714 INFO: [TUNE 3/12] spectral_clustering
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+2026-01-07 11:41:38,566 INFO:   Best ARI: 0.0362
+2026-01-07 11:41:38,566 INFO: [TUNE 4/12] ward
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 7 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 5 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 7 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 7 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 7 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 7 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 7 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 7 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 7 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 5 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 5 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 7 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 5 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 7 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 5 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 7 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+2026-01-07 11:41:40,407 INFO:   Best ARI: 0.0725
+2026-01-07 11:41:40,407 INFO: [TUNE 5/12] agglomerative
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 4 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 7 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+2026-01-07 11:41:42,307 INFO:   Best ARI: 0.0311
+2026-01-07 11:41:42,307 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:41:42,757 INFO:   Best ARI: 0.0324
+2026-01-07 11:41:42,758 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:41:43,287 INFO:   Best ARI: -0.0050
+2026-01-07 11:41:43,287 INFO: [TUNE 8/12] optics
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_optics.py:1084: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+2026-01-07 11:42:00,508 INFO:   Best ARI: 0.0837
+2026-01-07 11:42:00,508 INFO: [TUNE 9/12] birch
+2026-01-07 11:42:01,557 INFO:   Best ARI: 0.1252
+2026-01-07 11:42:01,557 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:42:02,298 INFO:   Best ARI: 0.0271
+2026-01-07 11:42:02,298 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:42:55,343 INFO:   Best ARI: 0.0567
+2026-01-07 11:42:55,343 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:43:06,985 INFO:   Best ARI: 0.0103
+2026-01-07 11:43:06,991 INFO: Updated Transfusion.npz with 12 predictions
+2026-01-07 11:43:06,991 INFO: Finished Transfusion. Best: birch (ARI=0.1252)
+Processing Datasets:  70%|███████   | 14/20 [22:23<12:20, 123.38s/it]2026-01-07 11:43:07,002 INFO: 
+============================================================
+2026-01-07 11:43:07,002 INFO: Processing Vehicle...
+2026-01-07 11:43:07,002 INFO: Shape: 846 rows x 18 cols, 4 clusters
+2026-01-07 11:43:07,002 INFO: ============================================================
+2026-01-07 11:43:07,007 INFO: [TUNE 1/12] k-means
+2026-01-07 11:43:12,561 INFO:   Best ARI: 0.0761
+2026-01-07 11:43:12,562 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:43:39,901 INFO:   Best ARI: 0.1117
+2026-01-07 11:43:39,902 INFO: [TUNE 3/12] spectral_clustering
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+2026-01-07 11:43:42,364 INFO:   Best ARI: 0.1190
+2026-01-07 11:43:42,365 INFO: [TUNE 4/12] ward
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+2026-01-07 11:43:45,487 INFO:   Best ARI: 0.0924
+2026-01-07 11:43:45,487 INFO: [TUNE 5/12] agglomerative
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+2026-01-07 11:43:48,224 INFO:   Best ARI: 0.0546
+2026-01-07 11:43:48,224 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:43:48,562 INFO:   Best ARI: 0.0993
+2026-01-07 11:43:48,562 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:43:49,805 INFO:   Best ARI: 0.0893
+2026-01-07 11:43:49,805 INFO: [TUNE 8/12] optics
+2026-01-07 11:44:07,127 INFO:   Best ARI: 0.0687
+2026-01-07 11:44:07,127 INFO: [TUNE 9/12] birch
+2026-01-07 11:44:09,349 INFO:   Best ARI: 0.1072
+2026-01-07 11:44:09,349 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:44:10,001 INFO:   Best ARI: 0.0890
+2026-01-07 11:44:10,001 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:45:14,034 INFO:   Best ARI: 0.1079
+2026-01-07 11:45:14,034 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:45:39,315 INFO:   Best ARI: 0.0720
+2026-01-07 11:45:39,345 INFO: Updated Vehicle.npz with 12 predictions
+2026-01-07 11:45:39,345 INFO: Finished Vehicle. Best: spectral_clustering (ARI=0.1190)
+Processing Datasets:  75%|███████▌  | 15/20 [24:55<11:00, 132.12s/it]2026-01-07 11:45:39,392 INFO: 
+============================================================
+2026-01-07 11:45:39,392 INFO: Processing VertebralColumn...
+2026-01-07 11:45:39,392 INFO: Shape: 310 rows x 6 cols, 3 clusters
+2026-01-07 11:45:39,392 INFO: ============================================================
+2026-01-07 11:45:39,393 INFO: [TUNE 1/12] k-means
+2026-01-07 11:45:42,388 INFO:   Best ARI: 0.2114
+2026-01-07 11:45:42,388 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:45:50,534 INFO:   Best ARI: 0.2224
+2026-01-07 11:45:50,534 INFO: [TUNE 3/12] spectral_clustering
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/base.py:1365: ConvergenceWarning: Number of distinct clusters (2) found smaller than n_clusters (3). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[3.46848049e-16 1.65443150e-06 2.65654877e-06 4.63588442e-06]
+not reaching the requested tolerance 4.6193599700927734e-06.
+  _, diffusion_map = lobpcg(
+2026-01-07 11:45:51,437 INFO:   Best ARI: 0.2744
+2026-01-07 11:45:51,438 INFO: [TUNE 4/12] ward
+2026-01-07 11:45:52,645 INFO:   Best ARI: 0.2670
+2026-01-07 11:45:52,645 INFO: [TUNE 5/12] agglomerative
+2026-01-07 11:45:53,783 INFO:   Best ARI: 0.4512
+2026-01-07 11:45:53,784 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:45:54,023 INFO:   Best ARI: 0.3289
+2026-01-07 11:45:54,023 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:45:54,308 INFO:   Best ARI: 0.2790
+2026-01-07 11:45:54,308 INFO: [TUNE 8/12] optics
+2026-01-07 11:46:01,325 INFO:   Best ARI: 0.3851
+2026-01-07 11:46:01,326 INFO: [TUNE 9/12] birch
+2026-01-07 11:46:01,895 INFO:   Best ARI: 0.2919
+2026-01-07 11:46:01,895 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:46:02,289 INFO:   Best ARI: 0.4121
+2026-01-07 11:46:02,289 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:46:26,416 INFO:   Best ARI: 0.1228
+2026-01-07 11:46:26,416 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:46:27,864 INFO:   Best ARI: 0.0700
+2026-01-07 11:46:27,868 INFO: Updated VertebralColumn.npz with 12 predictions
+2026-01-07 11:46:27,869 INFO: Finished VertebralColumn. Best: agglomerative (ARI=0.4512)
+Processing Datasets:  80%|████████  | 16/20 [25:44<07:07, 106.96s/it]2026-01-07 11:46:27,902 INFO: 
+============================================================
+2026-01-07 11:46:27,902 INFO: Processing Vowel_context...
+2026-01-07 11:46:27,902 INFO: Shape: 990 rows x 10 cols, 11 clusters
+2026-01-07 11:46:27,902 INFO: ============================================================
+2026-01-07 11:46:27,903 INFO: [TUNE 1/12] k-means
+2026-01-07 11:46:37,393 INFO:   Best ARI: 0.1793
+2026-01-07 11:46:37,393 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:47:29,613 INFO:   Best ARI: 0.1788
+2026-01-07 11:47:29,613 INFO: [TUNE 3/12] spectral_clustering
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited at iteration 208 with accuracies 
+[1.05737187e-12 6.21308410e-06 8.72886731e-06 8.48750697e-06
+ 6.97606729e-06 1.09750883e-05 1.10274729e-05 9.86800496e-06
+ 1.23977970e-05 1.52617915e-05 1.78109190e-05 1.36448905e-05]
+not reaching the requested tolerance 1.475214958190918e-05.
+Use iteration 208 instead with accuracy 
+1.0115957575216241e-05.
+
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:453: UserWarning: Exited postprocessing with accuracies 
+[3.08269901e-13 6.21321894e-06 8.72889562e-06 8.48756991e-06
+ 6.97599583e-06 1.09750622e-05 1.10274980e-05 9.86791255e-06
+ 1.23980483e-05 1.52694574e-05 1.78021707e-05 1.36474874e-05]
+not reaching the requested tolerance 1.475214958190918e-05.
+  _, diffusion_map = lobpcg(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+2026-01-07 11:47:34,450 INFO:   Best ARI: 0.1780
+2026-01-07 11:47:34,450 INFO: [TUNE 4/12] ward
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 21 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 21 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 21 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 21 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+2026-01-07 11:47:37,629 INFO:   Best ARI: 0.1673
+2026-01-07 11:47:37,629 INFO: [TUNE 5/12] agglomerative
+2026-01-07 11:47:41,381 INFO:   Best ARI: 0.0773
+2026-01-07 11:47:41,381 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:47:42,696 INFO:   Best ARI: 0.1356
+2026-01-07 11:47:42,696 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:47:43,942 INFO:   Best ARI: 0.0318
+2026-01-07 11:47:43,942 INFO: [TUNE 8/12] optics
+2026-01-07 11:48:07,367 INFO:   Best ARI: 0.0401
+2026-01-07 11:48:07,367 INFO: [TUNE 9/12] birch
+2026-01-07 11:48:08,996 INFO:   Best ARI: 0.1928
+2026-01-07 11:48:08,996 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:48:10,121 INFO:   Best ARI: 0.1759
+2026-01-07 11:48:10,122 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:49:12,898 INFO:   Best ARI: 0.1703
+2026-01-07 11:49:12,898 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:49:36,126 INFO:   Best ARI: 0.1304
+2026-01-07 11:49:36,144 INFO: Updated Vowel_context.npz with 12 predictions
+2026-01-07 11:49:36,144 INFO: Finished Vowel_context. Best: birch (ARI=0.1928)
+Processing Datasets:  85%|████████▌ | 17/20 [28:52<06:34, 131.41s/it]2026-01-07 11:49:36,166 INFO: 
+============================================================
+2026-01-07 11:49:36,166 INFO: Processing Wine...
+2026-01-07 11:49:36,166 INFO: Shape: 178 rows x 13 cols, 3 clusters
+2026-01-07 11:49:36,166 INFO: ============================================================
+2026-01-07 11:49:36,168 INFO: [TUNE 1/12] k-means
+2026-01-07 11:49:38,579 INFO:   Best ARI: 0.8975
+2026-01-07 11:49:38,580 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:49:42,754 INFO:   Best ARI: 0.8804
+2026-01-07 11:49:42,754 INFO: [TUNE 3/12] spectral_clustering
+2026-01-07 11:49:43,620 INFO:   Best ARI: 0.9471
+2026-01-07 11:49:43,620 INFO: [TUNE 4/12] ward
+2026-01-07 11:49:44,178 INFO:   Best ARI: 0.8203
+2026-01-07 11:49:44,179 INFO: [TUNE 5/12] agglomerative
+2026-01-07 11:49:44,877 INFO:   Best ARI: 0.5132
+2026-01-07 11:49:44,877 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:49:45,082 INFO:   Best ARI: 0.4362
+2026-01-07 11:49:45,082 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:49:45,332 INFO:   Best ARI: 0.3422
+2026-01-07 11:49:45,332 INFO: [TUNE 8/12] optics
+2026-01-07 11:49:49,453 INFO:   Best ARI: 0.7330
+2026-01-07 11:49:49,454 INFO: [TUNE 9/12] birch
+2026-01-07 11:49:49,868 INFO:   Best ARI: 0.7899
+2026-01-07 11:49:49,868 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:49:50,061 INFO:   Best ARI: 0.8975
+2026-01-07 11:49:50,061 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:49:58,660 INFO:   Best ARI: 0.7782
+2026-01-07 11:49:58,660 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:49:59,344 INFO:   Best ARI: 0.2449
+2026-01-07 11:49:59,349 INFO: Updated Wine.npz with 12 predictions
+2026-01-07 11:49:59,349 INFO: Finished Wine. Best: spectral_clustering (ARI=0.9471)
+Processing Datasets:  90%|█████████ | 18/20 [29:15<03:17, 98.89s/it] 2026-01-07 11:49:59,381 INFO: 
+============================================================
+2026-01-07 11:49:59,381 INFO: Processing WineQualityRed...
+2026-01-07 11:49:59,381 INFO: Shape: 1599 rows x 11 cols, 6 clusters
+2026-01-07 11:49:59,381 INFO: ============================================================
+2026-01-07 11:49:59,382 INFO: [TUNE 1/12] k-means
+2026-01-07 11:50:09,176 INFO:   Best ARI: 0.0627
+2026-01-07 11:50:09,177 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:51:10,260 INFO:   Best ARI: 0.0743
+2026-01-07 11:51:10,260 INFO: [TUNE 3/12] spectral_clustering
+2026-01-07 11:54:31,840 INFO:   Best ARI: 0.0732
+2026-01-07 11:54:31,841 INFO: [TUNE 4/12] ward
+2026-01-07 11:54:39,863 INFO:   Best ARI: 0.0638
+2026-01-07 11:54:39,863 INFO: [TUNE 5/12] agglomerative
+2026-01-07 11:54:47,333 INFO:   Best ARI: 0.0106
+2026-01-07 11:54:47,334 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:54:50,350 INFO:   Best ARI: 0.0250
+2026-01-07 11:54:50,351 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:54:53,627 INFO:   Best ARI: 0.0219
+2026-01-07 11:54:53,627 INFO: [TUNE 8/12] optics
+2026-01-07 11:55:33,737 INFO:   Best ARI: 0.0030
+2026-01-07 11:55:33,737 INFO: [TUNE 9/12] birch
+2026-01-07 11:55:37,897 INFO:   Best ARI: 0.0915
+2026-01-07 11:55:37,897 INFO: [TUNE 10/12] gaussian
+2026-01-07 11:55:39,523 INFO:   Best ARI: 0.0842
+2026-01-07 11:55:39,523 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 11:56:45,526 INFO:   Best ARI: 0.0765
+2026-01-07 11:56:45,526 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 11:57:52,390 INFO:   Best ARI: 0.0102
+2026-01-07 11:57:52,415 INFO: Updated WineQualityRed.npz with 12 predictions
+2026-01-07 11:57:52,415 INFO: Finished WineQualityRed. Best: birch (ARI=0.0915)
+Processing Datasets:  95%|█████████▌| 19/20 [37:08<03:31, 211.31s/it]2026-01-07 11:57:52,590 INFO: 
+============================================================
+2026-01-07 11:57:52,590 INFO: Processing Yeast...
+2026-01-07 11:57:52,592 INFO: Shape: 1484 rows x 8 cols, 10 clusters
+2026-01-07 11:57:52,592 INFO: ============================================================
+2026-01-07 11:57:52,596 INFO: [TUNE 1/12] k-means
+2026-01-07 11:58:03,957 INFO:   Best ARI: 0.1654
+2026-01-07 11:58:03,957 INFO: [TUNE 2/12] k-medians
+2026-01-07 11:58:56,173 INFO:   Best ARI: 0.1426
+2026-01-07 11:58:56,173 INFO: [TUNE 3/12] spectral_clustering
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/manifold/_spectral_embedding.py:328: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+2026-01-07 11:59:03,677 INFO:   Best ARI: 0.2395
+2026-01-07 11:59:03,677 INFO: [TUNE 4/12] ward
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:321: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+2026-01-07 11:59:10,908 INFO:   Best ARI: 0.1987
+2026-01-07 11:59:10,908 INFO: [TUNE 5/12] agglomerative
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 2 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/cluster/_agglomerative.py:592: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_connected_components = _fix_connectivity(
+2026-01-07 11:59:18,954 INFO:   Best ARI: 0.0377
+2026-01-07 11:59:18,954 INFO: [TUNE 6/12] dbscan
+2026-01-07 11:59:21,114 INFO:   Best ARI: 0.0409
+2026-01-07 11:59:21,114 INFO: [TUNE 7/12] hdbscan
+2026-01-07 11:59:23,506 INFO:   Best ARI: 0.0116
+2026-01-07 11:59:23,507 INFO: [TUNE 8/12] optics
+2026-01-07 11:59:59,924 INFO:   Best ARI: 0.0176
+2026-01-07 11:59:59,924 INFO: [TUNE 9/12] birch
+2026-01-07 12:00:04,334 INFO:   Best ARI: 0.1961
+2026-01-07 12:00:04,335 INFO: [TUNE 10/12] gaussian
+2026-01-07 12:00:06,081 INFO:   Best ARI: 0.1617
+2026-01-07 12:00:06,081 INFO: [TUNE 11/12] mean_shift
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+/lustre06/project/6006810/mrb/projects/auto_clust/.venv/lib/python3.13/site-packages/sklearn/metrics/cluster/_supervised.py:50: UserWarning: The number of unique classes is greater than 50% of the number of samples. `y` could represent a regression problem, not a classification problem.
+  type_pred = type_of_target(labels_pred)
+2026-01-07 12:01:15,287 INFO:   Best ARI: 0.1735
+2026-01-07 12:01:15,297 INFO: [TUNE 12/12] affinity_propagation
+2026-01-07 12:02:22,768 INFO:   Best ARI: 0.0313
+2026-01-07 12:02:22,815 INFO: Updated Yeast.npz with 12 predictions
+2026-01-07 12:02:22,815 INFO: Finished Yeast. Best: spectral_clustering (ARI=0.2395)
+Processing Datasets: 100%|██████████| 20/20 [41:39<00:00, 229.02s/it]Processing Datasets: 100%|██████████| 20/20 [41:39<00:00, 124.96s/it]
+2026-01-07 12:02:22,851 INFO: 
+============================================================
+2026-01-07 12:02:22,851 INFO: Benchmark complete!
+2026-01-07 12:02:22,851 INFO: Results JSON: results/oracle.json
+2026-01-07 12:02:22,851 INFO: ARI matrix CSV: results/oracle_ari.csv
+2026-01-07 12:02:22,851 INFO: Time matrix CSV: results/oracle_time.csv
+2026-01-07 12:02:22,852 INFO: ============================================================

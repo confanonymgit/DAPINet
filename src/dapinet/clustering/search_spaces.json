@@ -1,0 +1,147 @@
+{
+    "spectral_clustering": {
+        "eigen_solver": {
+            "type": "categorical",
+            "choices": [
+                "arpack",
+                "lobpcg"
+            ]
+        },
+        "affinity": {
+            "type": "categorical",
+            "choices": [
+                "nearest_neighbors",
+                "rbf"
+            ]
+        },
+        "gamma": {
+            "type": "float",
+            "low": 0.01,
+            "high": 1.5,
+            "log": true
+        },
+        "n_neighbors": {
+            "type": "int",
+            "low": 5,
+            "high": 30
+        }
+    },
+    "ward": {
+        "n_neighbors": {
+            "type": "int",
+            "low": 5,
+            "high": 30
+        }
+    },
+    "agglomerative": {
+        "linkage": {
+            "type": "categorical",
+            "choices": [
+                "complete",
+                "average",
+                "single"
+            ]
+        },
+        "metric": {
+            "type": "categorical",
+            "choices": [
+                "euclidean",
+                "cosine",
+                "l1",
+                "l2"
+            ]
+        },
+        "n_neighbors": {
+            "type": "int",
+            "low": 5,
+            "high": 30
+        }
+    },
+    "dbscan": {
+        "eps": {
+            "type": "float",
+            "low": 0.01,
+            "high": 5.0
+        },
+        "min_samples": {
+            "type": "int",
+            "low": 5,
+            "high": 20
+        }
+    },
+    "hdbscan": {
+        "min_cluster_size": {
+            "type": "int",
+            "low": 2,
+            "high": 20
+        },
+        "min_samples": {
+            "type": "int",
+            "low": 5,
+            "high": 20
+        }
+    },
+    "optics": {
+        "min_samples": {
+            "type": "int",
+            "low": 5,
+            "high": 20
+        },
+        "xi": {
+            "type": "float",
+            "low": 0.01,
+            "high": 0.2
+        },
+        "min_cluster_size": {
+            "type": "float",
+            "low": 0.01,
+            "high": 0.9
+        }
+    },
+    "birch": {
+        "threshold": {
+            "type": "float",
+            "low": 0.01,
+            "high": 0.8
+        }
+    },
+    "gaussian": {
+        "covariance_type": {
+            "type": "categorical",
+            "choices": [
+                "full",
+                "diag",
+                "spherical"
+            ]
+        }
+    },
+    "mean_shift": {
+        "bandwidth": {
+            "type": "float",
+            "low": 0.1,
+            "high": 10.0,
+            "log": true
+        }
+    },
+    "affinity_propagation": {
+        "damping": {
+            "type": "float",
+            "low": 0.7,
+            "high": 0.98
+        }
+    },
+    "k-means": {
+        "n_init": {
+            "type": "int",
+            "low": 50,
+            "high": 100
+        }
+    },
+    "k-medians": {
+        "n_init": {
+            "type": "int",
+            "low": 50,
+            "high": 100
+        }
+    }
+}

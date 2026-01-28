@@ -1,0 +1,13 @@
+{
+  "include": [
+    "src"
+  ],
+  "venvPath": ".",
+  "venv": ".venv",
+  "typeCheckingMode": "off",
+  "reportMissingImports": true,
+  "exclude": [
+    ".venv",
+    "**/site-packages"
+  ]
+}

@@ -1,0 +1,83 @@
+Job ID: 54996450
+Hostname: nc30421
+CPU Information:
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           43 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  64
+On-line CPU(s) list:                     0-63
+Vendor ID:                               AuthenticAMD
+Model name:                              AMD EPYC 7532 32-Core Processor
+CPU family:                              23
+Model:                                   49
+Thread(s) per core:                      1
+Core(s) per socket:                      32
+Socket(s):                               2
+Stepping:                                0
+BogoMIPS:                                4790.78
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca sev sev_es
+L1d cache:                               2 MiB (64 instances)
+L1i cache:                               2 MiB (64 instances)
+L2 cache:                                32 MiB (64 instances)
+L3 cache:                                512 MiB (32 instances)
+NUMA node(s):                            8
+NUMA node0 CPU(s):                       0-7
+NUMA node1 CPU(s):                       8-15
+NUMA node2 CPU(s):                       16-23
+NUMA node3 CPU(s):                       24-31
+NUMA node4 CPU(s):                       32-39
+NUMA node5 CPU(s):                       40-47
+NUMA node6 CPU(s):                       48-55
+NUMA node7 CPU(s):                       56-63
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Mitigation; untrained return thunk; SMT disabled
+Vulnerability Spec rstack overflow:      Mitigation; SMT disabled
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspace
+
+=== ARI Matrix ===
+        dataset   k-means  k-medians  spectral_clustering      ward  agglomerative   dbscan   hdbscan   optics     birch  gaussian  mean_shift  affinity_propagation
+   BreastTissue  0.259222   0.304671             0.415214  0.313916       0.367256 0.268422  0.181302 0.225977  0.329847  0.352326    0.254034              0.223173
+BreastWisconsin  0.670721   0.742590             0.785910  0.695098       0.007276 0.295065  0.155987 0.155078  0.695426  0.774016    0.513895              0.519108
+          Ecoli  0.499770   0.493437             0.720195  0.518250       0.395549 0.496586  0.404250 0.519053  0.795428  0.650539    0.741871              0.245261
+          Glass  0.169953   0.184146             0.225414  0.135069       0.287744 0.250715  0.257036 0.220736  0.291949  0.225683    0.289859              0.159850
+       Haberman -0.001102  -0.000053             0.079278  0.014341       0.155343 0.157664  0.000000 0.142776  0.155578  0.103998    0.183416              0.029962
+     Ionosphere  0.167902   0.093276             0.101280  0.187443       0.333192 0.731901  0.419098 0.721560  0.197540  0.394204    0.363369              0.128251
+           Iris  0.620135   0.665565             0.652516  0.615323       0.563751 0.568116  0.563751 0.568116  0.719584  0.903874    0.568116              0.477171
+Movement_libras  0.310840   0.306007             0.398529  0.319464       0.107331 0.119693  0.079489 0.071029  0.323289  0.280395    0.294826              0.289818
+           Musk  0.004212   0.003753             0.001258 -0.000511       0.072387 0.000000  0.098557 0.000000 -0.000511  0.001378    0.032783              0.027254
+     Parkinsons -0.097808   0.126657             0.437258 -0.059881       0.237292 0.039644  0.147183 0.248189  0.142996  0.121841    0.069343              0.025812
+   Segmentation  0.461546   0.523736             0.358865  0.436570       0.291492 0.301314  0.452303 0.252450  0.475117  0.493985    0.436502              0.188537
+       SonarAll -0.001415   0.001118             0.032359  0.004459       0.028710 0.012519  0.003465 0.012161 -0.001378  0.004464    0.018133              0.044420
+         Spectf -0.102604  -0.105308            -0.005504 -0.101775       0.098153 0.255508  0.045285 0.012621 -0.106528 -0.098847    0.000000             -0.008762
+    Transfusion  0.052656   0.051993             0.036163  0.072537       0.031084 0.032443 -0.005016 0.083652  0.125203  0.027109    0.056651              0.010275
+        Vehicle  0.076124   0.111665             0.118960  0.092416       0.054623 0.099323  0.089327 0.068665  0.107154  0.088986    0.107858              0.072021
+VertebralColumn  0.211391   0.222369             0.274361  0.266954       0.451171 0.328918  0.278973 0.385106  0.291856  0.412077    0.122761              0.070037
+  Vowel_context  0.179251   0.178785             0.177962  0.167319       0.077301 0.135591  0.031819 0.040079  0.192813  0.175860    0.170290              0.130432
+           Wine  0.897495   0.880400             0.947132  0.820301       0.513174 0.436186  0.342231 0.733018  0.789933  0.897495    0.778211              0.244913
+ WineQualityRed  0.062733   0.074305             0.073175  0.063754       0.010556 0.025044  0.021896 0.002978  0.091496  0.084203    0.076455              0.010191
+          Yeast  0.165367   0.142645             0.239494  0.198692       0.037734 0.040871  0.011632 0.017585  0.196119  0.161694    0.173497              0.031266
+
+=== Best Algorithm Distribution ===
+spectral_clustering     7
+birch                   5
+dbscan                  2
+mean_shift              1
+gaussian                1
+hdbscan                 1
+k-medians               1
+affinity_propagation    1
+agglomerative           1
