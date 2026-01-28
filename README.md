@@ -19,7 +19,6 @@ DAPINet is an end-to-end meta-learning framework for selecting a suitable cluste
 - [scripts](scripts): Data generation, training, and evaluation utilities.
 - [notebooks](notebooks): Analysis and plotting notebooks used in the paper.
 - [models](models): Trained checkpoints and training histories.
-- [paper.md](paper.md): Full manuscript.
 
 ## How It Works
 1. **Dataset synthesis** generates diverse tabular datasets spanning convex, manifold, and density-based structures.
