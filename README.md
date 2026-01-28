@@ -29,7 +29,7 @@ DAPINet is an end-to-end meta-learning framework for selecting a suitable cluste
 All experiments reported in the paper are derived from the scripts and notebooks in this repository.
 
 ## Project Startup
-The recommended setup is with `uv` for dependency management and command execution. See [https://astral.sh/uv](https://astral.sh/uv).
+The recommended setup is with `uv` for dependency management and command execution. See [astral.sh/uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ### Sync dependencies
 ```
