@@ -1,12 +1,12 @@
-# DAPINet: Distribution-Aware Permutation-Invariant Network
+# DAPINet: Distribution-Aware Permutation-Invariant Network for Clustering Algorithm Recommendation
 
-DAPINet is an end-to-end meta-learning framework for selecting a suitable clustering algorithm for tabular data. It operates directly on raw n&times;m tables, enforces double permutation invariance over rows and columns, and uses distribution-aware column fingerprints to capture feature identity without positional indices. The model predicts expected performance across a pool of clustering algorithms and recommends the best candidate, achieving near-oracle quality with substantially lower compute than exhaustive search.
+DAPINet is an end-to-end meta-learning framework for selecting a suitable clustering algorithm for tabular data. It operates directly on raw n&times;m (object &times; feature) tables, enforces double permutation invariance over rows and columns, and uses distribution-aware column fingerprints to capture feature identity without positional indices. The model predicts expected performance across a pool of clustering algorithms and recommends the best candidate, achieving *near-oracle* quality with substantially lower computational time than exhaustive search.
 
 ## Key Ideas
 - **Double permutation invariance** across rows (objects) and columns (features).
 - **Distribution-Aware Column Embeddings (DACE)** using quantile fingerprints to encode feature identity.
 - **Set-of-sets architecture**: column interaction per row, followed by row interaction and attention pooling.
-- **Predict-then-optimize** recommendation that approximates oracle performance while reducing compute.
+- **Predict-then-optimize** recommendation that approximates oracle performance while reducing computational time.
 
 ## Highlights
 - Trained on a large synthetic repository of diverse clustering topologies.
